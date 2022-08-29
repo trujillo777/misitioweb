@@ -1,16 +1,15 @@
 body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(24,24,24,.9);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-    
 
 h1 {
-    font-family: 'cinzel-v19-latin-regular';
+    font-family: 'font/game of thrones.ttf';
     font-size: 5em;
-    color: rgb(230, 175, 74)
+    color: rgb(158, 134, 63);
 
 }
