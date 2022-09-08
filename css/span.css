@@ -1,0 +1,20 @@
+.letter-styles {
+    font-size: 44px;
+    color: black;
+
+}
+.name-style {
+    color: red;
+} 
+
+h2.name-style{
+    color: blue;
+}
+
+.text-style{
+    color: darkcyan;
+}
+
+#textStyle{
+    color: rgb(135, 157, 207);
+}
