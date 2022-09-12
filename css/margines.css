@@ -20,7 +20,7 @@
 
 .box-2 {
     margin-right: 50px;
-    border: 5px solid rgba(57, 49, 172, 0.597);
+    border: 5px dotted rgba(57, 49, 172, 0.597);
     padding: 25px;
     margin: 6em 2em 20em 1em;
     background-color: rgb(178, 53, 151);
@@ -31,7 +31,7 @@
 
 .box-3 {
     margin-right: 50px;
-    border: 5px solid rgba(114, 81, 116, 0.597);
+    border: 5px dashed rgba(114, 81, 116, 0.597);
     padding: 25px;
     margin: 6em 2em 20em 1em;
     background-color: rgb(63, 125, 136);
@@ -42,7 +42,7 @@
 
 .box-4 {
     margin-right: 50px;
-    border: 5px solid rgba(164, 172, 49, 0.597);
+    border: 5px double rgba(164, 172, 49, 0.597);
     padding: 25px;
     margin: 6em 2em 20em 1em;
     background-color: rgb(57, 174, 119);
@@ -53,7 +53,7 @@
 
 .box-5 {
     margin-right: 50px;
-    border: 5px solid rgba(49, 172, 153, 0.597);
+    border: 5px groove rgba(49, 172, 153, 0.597);
     padding: 25px;
     margin: 6em 2em 20em 1em;
     background-color: bisque;
