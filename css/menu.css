@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu{
+    background-color: rgb(66, 103, 103);
+    text-align: right;
+
+}
+li{
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 25px;
+
+}
+
