@@ -1,7 +1,10 @@
-img {
-    width: 30%;
+.imagenes {
+    display: inline-flex;
 
 }
 
-h1, h2 {
-    text-align: center;
+img {
+    width: 30%;
+}
+
+
