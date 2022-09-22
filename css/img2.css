@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagenes {
+    padding-left: 30px;
+
+}
+
+img {
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.box-paisaje{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px ;
+}
+p{
+    text-align: justify;
+}
