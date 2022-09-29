@@ -24,7 +24,8 @@
     width: 260px;
     height: 260px;
    
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px beige;
+    background-color: beige;
 }
 
 .PRIMARIO {
@@ -46,7 +47,7 @@
     width: 260px;
     height: 260px;
    
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px aqua;
     background-color: aqua;
 }
 
@@ -60,7 +61,7 @@
     height: 260px;
    
  
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px blue;
     background-color: blue;
 
 }
@@ -80,7 +81,7 @@
     height: 260px;
     
 
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px darkcyan;
     background-color: darkcyan;
 
 }
@@ -95,7 +96,7 @@
     height: 260px;
     
 
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px darkolivegreen;
     background-color: darkolivegreen;
 
 }
@@ -110,7 +111,7 @@
     height: 260px;
     
 
-    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    box-shadow: 40px 20px 38px mediumaquamarine;
     background-color: mediumaquamarine;
 }
 
