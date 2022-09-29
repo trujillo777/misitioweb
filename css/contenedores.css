@@ -1,70 +1,117 @@
 * {
     padding: 0;
-    margin:     0;
+    margin:     0; 
+
+}
+
+
+.box-text {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+    text-shadow: 20px 12px 10px rgb(92, 83, 83);
+    
 }
 
 .contenedor1 {
-    text-align: center;
-
-    margin: 20px;
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     display: flex;
+    margin: 20px;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 780px;
+   
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+}
+
+.PRIMARIO {
+    justify-content: center;
+    display: flex;
 }
 
 .SEGUNDARIO {
     display: flex;
+    justify-content: center;
 }
 
 .contenedor2 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 615px;
+   
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    background-color: aqua;
 }
 
 .contenedor3 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 50px;
+   
+ 
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    background-color: blue;
+
 }
 
 .TERCEARIO {
     display: flex;
+    justify-content: center;
 }
 
 .contenedor4 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 450px;
+    
+
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    background-color: darkcyan;
+
 }
 
 .contenedor5 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 50px;
+    
+
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    background-color: darkolivegreen;
+
 }
 
 .contenedor6 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
-    margin-left: 50px;
+    
+
+    box-shadow: 40px 20px 38px rgb(47, 47, 43);
+    background-color: mediumaquamarine;
 }
 
 
