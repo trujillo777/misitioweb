@@ -1,0 +1,23 @@
+.icon-style{
+    color: deepskyblue;
+    font-size: 1.3em;
+    padding-right: 5px;
+    padding: 17px;
+}
+nav{
+    background-color: antiquewhite;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+}
+ul{ 
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+hr{
+    padding: 15px;
+}
