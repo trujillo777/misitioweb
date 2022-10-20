@@ -1,3 +1,4 @@
+
 label {
     display: block;
 }
@@ -21,9 +22,14 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 h1{
     display: flex;
     justify-content: center;
+}
+
+.but{
+    padding: 8px;   
 }
