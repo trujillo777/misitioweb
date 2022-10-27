@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-1-fixed, .box-2-fixed, .box-3-fixed {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1, .box-2, .box-3, .box-4{
+    margin: 20px;
+}
+
+.box-3-fixed{
+    width: 70px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box-1{
+    background-color: cadetblue;
+   
+}
+
+.box-2{
+    background-color: darkkhaki;
+    
+}
+
+.box-3{
+    background-color: darkslateblue;
+    position: static;
+}
+
+.box-4{
+    background-color: darkred;
+    
+}
+
+.box-1-fixed {
+    background-color: darkgreen;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.box-2-fixed{
+    background-color: rgb(10, 110, 80);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box-3-fixed{
+    background-color: rgb(24, 137, 35);
+    position: fixed;
+    right: 0%;
+    top: 17em;
+}
+
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 50px 80px;
+}
