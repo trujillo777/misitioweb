@@ -1,14 +1,16 @@
 .icon-style{
     color: deepskyblue;
-    font-size: 1.3em;
+    font-size: 1.3  em;
     padding-right: 5px;
-    padding: 17px;
+    padding: 4px;
+    width: 50px;
+    box-sizing: border-box;
 }
 nav{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     top: 0;
     left: 0;
-    width: 350px;
+    width: 240px;
     height: 100vh;
 }
 ul{ 
@@ -21,3 +23,16 @@ a{
 hr{
     padding: 15px;
 }
+
+li{
+ 
+    border: transparent;
+}
+li:hover{
+    background-color: darkgrey;
+     border: 1.2em;
+   }
+
+   div{
+    border-bottom: 1px solid black;
+   }
