@@ -1,12 +1,11 @@
 body {
     padding: 0%;
     margin: 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
-    box-shadow: 0px 1px 2px  rgb(36, 204, 168);
-    border-bottom: 1px solid  rgb(36, 204, 168);
+ 
+    
     display: flex;
     justify-content: center;
     align-self: center;
@@ -22,7 +21,7 @@ nav >ul {
     margin: 0%;
     height: 32px;
     padding-right: 2%;
-    border-right: 1px solid rgb(36, 204, 168);
+    border-right: 1px solid rgb(214, 99, 32);
 }
 
 nav >ul:hover {
@@ -48,8 +47,8 @@ nav ul li ul li a {
 }
 
 nav ul li ul li a:hover {
-    border-radius: 10px;
-    background-color:  rgb(36, 204, 168);
+    border-radius: 3px;
+    background-color:  rgb(149, 228, 211);
 }
 
 nav ul li ul li {
@@ -61,10 +60,10 @@ nav ul li ul .transparent {
 }
 
 nav ul li:hover>ul {
-    box-shadow: -1px 1px 10px rgb(255, 255, 255);
+    box-shadow: -1px 1px 10px rgb(116, 116, 116);
     padding: 7px;
-    background-color: rgb(237, 237, 237);
-    border-radius: 5px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 3px;
     display: block;
     cursor: pointer;
 }
@@ -73,10 +72,12 @@ nav>ul>li {
     float: left;
 }
 .inline{
-    border-radius: 7px;
-    height: 75px;
-    width: 18%;
-    background-color:  rgb(36, 204, 168);
+    position: relative;
+    right: 2%;
+    border-radius: 3px;
+    height: 70px;
+    width: 15%;
+    background-color:  rgb(170, 170, 170);
 }
 div ul .inline{ 
     display: flex;
@@ -90,11 +91,5 @@ div ul .inline:hover{
     cursor: pointer;
 }
 div ul  .inline a{
-    color: rgb(241, 241, 241);
-}
-.icon{
-    font-size: 21.5px;
-    left: 18.6%;
-    position: absolute;
-    color:  rgb(24, 26, 25);
+    color: rgb(0, 0, 0);
 }
