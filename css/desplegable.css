@@ -44,6 +44,9 @@ nav li:hover > ul > li {
     max-height: 500px;
     overflow: visible;
 }
+nav ul {
+    border-radius: 20px;
+}
 nav ul ul ul {
     top: 0;
     left: 100%;
