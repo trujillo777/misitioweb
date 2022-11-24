@@ -8,6 +8,7 @@
     color: white;
     font-size: 2.2em;
     top: 15px;
+    cursor: pointer;
     right: 30px;
     visibility: hidden;
 }
