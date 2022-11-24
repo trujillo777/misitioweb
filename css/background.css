@@ -3,9 +3,27 @@
     padding: 0;
 }
 .box-main{
-    background-image: url("../img/noooooooooo.jpg");
+    background-image: url("../img/sino.jpg");
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+}
+ul{
+    width: 100%;
+    text-align: left;
+    height: 80px;
+    margin-right: 60px;
+}
+li{
+    padding: 25px;
+    color: black;
+    font-size: 1.4em;
+    display: inline-block;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.last-item{
+    margin-right: 80px;
 }
