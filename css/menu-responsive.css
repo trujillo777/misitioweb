@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    display: none;
+}
+nav{
+    background-color: dodgerblue;
+    width: 100%;
+}
+
+nav >ul >li >ul{
+    position: absolute;
+    display: none;
+    
+}
+ul{
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: brown;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+}
+.children{
+    position: absolute;
+    display: none;
+    background-color: black;
+    text-align: left;
+}
+nav ul li:hover .children{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.children li:hover{
+    background-color: brown;
+    width: 100%;
+}
