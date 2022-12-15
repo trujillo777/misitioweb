@@ -38,3 +38,65 @@
 .box3-new {
     left: 1050px;
 }
+.box-4{
+    border-radius: 150px;
+    background-color: rgb(193, 193, 193);
+    display: block;
+    width: 150px;
+    height: 80px;
+}
+.box-5{
+    border-radius: 150px;
+    background-color: rgb(125, 125, 125);
+    display: block;
+    height: 78px;
+    width: 78px;
+    transition: margin-left 200ms;
+    cursor: pointer;
+}
+.box5{
+    margin-left: 47%;
+}
+
+.box-6{
+    border-radius: 150px;
+  background-color:rgb(106, 112, 153);
+  display: block;
+  width: 150px;
+  height: 80px;
+  transition:background-color 1s ;
+}
+
+.box-7{
+    border-radius: 150px;
+    background-color: rgba(126, 126, 126, 0.928);
+    display: block;
+    height: 78px;
+    width: 78px;
+    transition: margin-left 200ms;
+}
+.box7{
+    margin-left: 50%;
+}
+.box_6{
+    background-color: rgb(96, 96, 97);
+}
+.box8{
+    position:fixed;
+    bottom: -200px;
+    left: -200px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: blueviolet;
+    transition: all 1.2s;
+    border-radius: 150px;
+ }
+ 
+ .box8:hover{
+     width: 600px;
+     height: 600px;
+     border-radius: 300px;
+     background-color: violet;
+ }
+
