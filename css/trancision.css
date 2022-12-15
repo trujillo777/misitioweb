@@ -1,0 +1,40 @@
+.box-1 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+    background-color: darkcyan;
+    transition: background-color 1s;
+}
+.box-1:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.box-2 {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    position: static;
+    display: inline-block;
+    background-color: rgb(64,64,64);
+    transition: margin-left 1s;
+}
+.box-2:hover {
+    margin-left: 330px;
+    cursor: pointer;
+}
+.box-3 {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    position: fixed;
+    display: inline-block;
+    background-color: rgb(190, 11, 11);
+    transition: left 200ms;
+}
+.box3-old {
+    left: 720px;
+}
+.box3-new {
+    left: 1050px;
+}
