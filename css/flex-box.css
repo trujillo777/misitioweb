@@ -89,7 +89,7 @@ h2{
     align-items: flex-start;
 }
 .box_44{
-    height: 480px;
+    height: 280px;
 }
 .box_45{
     height: 210px;
@@ -103,28 +103,45 @@ h2{
 .box-box-aling{
     width: 130px;
     margin-bottom: 0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
 }
 .box_48{
-    background-color: blueviolet;
+    background-color: darkgray;
     height: 350px;
 }
 .box_49{
-   background-color: crimson; 
+    background-color: darkgray; 
    height: 210px;
 }
 .box_50{
-    background-color: darkcyan;
+    background-color: darkgray;
     height: 110px;
 }
 .box_51{
-    background-color: aquamarine;
+    background-color: darkgray;
     height: 310px;
 }
 .box_52{
-    background-color: darkgreen;
+    background-color: darkgray;
     height: 290px;
 }
 .box-main-aling{
     display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1em;
+    text-align: center;
+    color: black;
+}
+.texto-grafica{
+    transform: rotate(-90deg);
+    font-size: 1.2em;
+    height: 210px;
+    width: -150px;
+    text-align: center;
     justify-content: center;
 }
