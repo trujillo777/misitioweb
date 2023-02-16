@@ -138,10 +138,27 @@ p{
     color: black;
 }
 .texto-grafica{
-    transform: rotate(-90deg);
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
     font-size: 1.2em;
-    height: 210px;
-    width: -150px;
     text-align: center;
-    justify-content: center;
+    
+
 }
+.linea-hr{
+    position: absolute;
+    width: 750px;
+}
+.linea100{
+    margin-bottom: 0;
+}
+.linea80{
+    margin-bottom: 100px;
+}
+.linea60{
+    margin-bottom: 200px;
+}
+.linea40{
+    margin-bottom: 300px;
+}
+

@@ -1,0 +1,48 @@
+h2{
+    text-align: center;
+    
+} 
+
+.dias{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    border: 1px solid black;
+    width: 700px;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.dia{
+    background-color: lemonchiffon;
+    border: 1px solid white;
+    display: flex;
+    height: 50PX;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.3em;
+
+}
+.num{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    border: 1px solid black;
+    width: 700px;
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} 
+.box{
+    background-color: salmon;
+    border: 1px solid white;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.3em;
+}
+
+
