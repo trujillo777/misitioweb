@@ -70,18 +70,26 @@ let numeroElementos = document.getElementById("numeroElementos");
 
 
 
-btnSumar.addEventListener("click", function() {
-    
-   let numeroElementosTxt = document.getElementById("numeroElemetos").innerHTML;
-   
-   let numeroElementosINT = parseInt(numeroElementosTxt);
+btnSumar.addEventListener("click",function(){
+    // nodeToAdd.appendChild(nodeText);
+    // btnCantidad.appendChild(nodeToAdd);
+    let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
 
-   let totalElementosINT = numeroElementosInt + 1;
+    let numeroElementosInt = parseInt(numeroElementosTxt);
+    let totalElementosInt = numeroElementosInt + 1 ;
+    let totalElementostxt = totalElementosInt.toString();
+    numeroElementos.innerHTML = totalElementostxt;
 
-   let totalElementostxt = totalElementosInt.toString();
+});
+btnRestar.addEventListener("click",function(){
 
-   numeroElementos.innerHTML = totalElementos;
-
+    if(numeroElementos.innerHTML > 0){
+        let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
+        let numeroElementosInt = parseInt(numeroElementosTxt);
+        let totalElementosInt = numeroElementosInt - 1 ;
+        let totalElementostxt = totalElementosInt.toString();
+        numeroElementos.innerHTML = totalElementostxt;
+    };
 });
 
 
