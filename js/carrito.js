@@ -68,6 +68,14 @@ let btnCantidad = document.getElementById("btnCantidad")
 let cantBox = document.getElementById("cantBox");
 let numeroElementos = document.getElementById("numeroElementos");
 
+let valorUnitario = 199000;
+let valorUnitarioTxt = valorUnitario.toString();
+let valorUnitarioPeso = new Intl.NumberFormat().format(valorUnitario);
+let valorTotal = document.getElementById("valorTotal");
+let valorTotalInt = 0;
+//let valorTotalTxt = "";
+//let cantNumTotal = valorUnitarioTxt.length;
+
 
 
 btnSumar.addEventListener("click",function(){
@@ -80,7 +88,11 @@ btnSumar.addEventListener("click",function(){
     let totalElementostxt = totalElementosInt.toString();
     numeroElementos.innerHTML = totalElementostxt;
 
+    valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML= "$" + new Intl.NumberFormat().format(valorTotalInt);
+
 });
+
 btnRestar.addEventListener("click",function(){
 
     if(numeroElementos.innerHTML > 0){
@@ -89,8 +101,24 @@ btnRestar.addEventListener("click",function(){
         let totalElementosInt = numeroElementosInt - 1 ;
         let totalElementostxt = totalElementosInt.toString();
         numeroElementos.innerHTML = totalElementostxt;
+
+
+        valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML= "$" + new Intl.NumberFormat().format(valorTotalInt);
+
     };
 });
+
+
+let lightBox = document.getElementById("lightBox")
+imgBox.addEventListener("click", function(){
+
+    lightBox.classList.remove("light-hiden")
+
+});
+
+let btnX = document.getElementById("btnX");
+
 
 
 

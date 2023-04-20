@@ -1,5 +1,7 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h2{
     text-align: center;
@@ -98,3 +100,80 @@ img{
     flex-direction: row;
 
 }
+
+.valor-total{
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+/* lighbox*/
+
+.lighbox{
+    background-color: rgb(64, 64, 64,.8);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.light-hiden{
+    display: none;
+}
+
+.main-lighbox{
+    width: 450px;
+    height: 500px;
+
+}
+
+
+.btn-style{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 24, 24);
+    position: relative;
+    top: 198px;
+}
+.btn-atras{
+   left: -25px;
+   z-index: 20;
+   cursor: pointer;
+}
+
+.btn-adelante{
+    left: 95%;
+    z-index: 20;
+    top: 152px;
+    cursor: pointer;
+}
+
+.btn-x{
+    display: flex;
+    color: black;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 100%;
+    cursor: pointer;
+    font-size: 1.3em;
+    
+}
+
+.style-btn{
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.img-main-light{
+    position: relative;
+    top: -88px;
+    width: 100%;border-radius: 20px;
+    z-index: 10;
+}
+
