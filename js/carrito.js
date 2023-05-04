@@ -117,7 +117,6 @@ imgBox.addEventListener("click", function(){
 
 });
 
-let btnX = document.getElementById("btnX");
 
 
 
@@ -134,4 +133,3 @@ let btnX = document.getElementById("btnX");
 
 
 
-      
