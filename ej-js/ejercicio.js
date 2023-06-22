@@ -68,7 +68,7 @@ console.log("Resultado " + (num1Float + num3Float));
 
 /* De decimal a entero */
 let num6Int = Math.ceil(num5Float);
-console.log("Conversion de decimal a entero con ajuste hacia el tercho " + num6Int);
+console.log("Conversion de decimal a entero con ajuste hacia el techo " + num6Int);
 
 
 
@@ -100,3 +100,31 @@ console.log("Conversion de decimal a entero con ajuste hacia el tercho " + num6I
 // let for = 5;
 // let switch = "Deportes";
 // let while = 2.4;
+
+
+
+
+/* Operadores aritmticos */
+console.log("Operadores aritmeticos");
+
+let numArit1 = 9;
+let numArit2 = 6;
+
+console.log("Suma ");
+console.log("numArit1 (9) + numArit2 (6): " + (numArit1 + numArit2));
+console.log("Resta ");
+console.log("numArit1 (6) - numArit2 (9): " + (numArit2 - numArit1));
+console.log("Multiplicacion ");
+console.log("numArit1 (9) * numArit2 (6): " + (numArit2 * numArit1));
+console.log("Division ");
+console.log("Residuo " + (numArit1 % numArit2));
+
+let resultDiv = numArit1 / numArit2;
+console.log("numArit1 (9) / numArit2 (6): " + (numArit1 / numArit2));
+console.log("Redondear numeros");
+console.log("Redondear segun promedio");
+console.log(Math.round(resultDiv));
+console.log("Redondear hacia abajo");
+console.log(Math.floor(resultDiv));
+console.log("Redondear hacia arriba");
+console.log(Math.ceil(resultDiv));
