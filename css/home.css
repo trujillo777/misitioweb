@@ -9,8 +9,6 @@
     display: flex;
     align-items: center;
     border: 0.8px solid rgb(171, 166, 166);
-    /* justify-content: center; */
-
 }
 .hamburguesa{
     display: none;
@@ -44,9 +42,7 @@
     outline: none;
 }
 .main-searcher{
-    display: flex;
-    /* width: 668px;
-    height: 48px; */   
+    display: flex;   
 }
 .searcher{
     display: flex;
@@ -165,7 +161,6 @@
         background-color: white; 
         text-align: center;
         align-items: center;
-        /* justify-content: center; */
         position: absolute;
         height: 60px;
         width: 100%;
@@ -175,12 +170,9 @@
         display: none;
     }
     .searcher-query{
-        /* height: 36px;
-        width: 33px; */
         position: relative;
         left: 8px;
         font-size: 20px;
-        
     }
     .container-searcher-query {
         position: relative;
