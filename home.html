@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Searcher</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="fonts/all.css">
+
 </head>
 <body>
-    <header>
-        <div id="boxHeader1" class="box-header-1">
-            <label class="menu-hamburguer"><i class="fa-solid fa-bars hambur style-hamburguer" ></i></label>
-            <div class="img-logo">
-                <img class="icono-homecenter" src="img/home.png" alt="">
-            </div>
-            <label id="idLupa" class="icono-lupa"><img class="img-lupa" src="img/lupa.jpg" alt="Lupa"></label>
-            <div class="circle">0</div>
-            <label class="carrito-compras"><img src="img/carrito-de-compras.png"></label>
-            <label class="cmr"><img src="img/cmr-puntos.png" alt=""></label>
-            <label class="icono-user"><img src="img/use.png"></label>
-        </div>
-        <div id="boxHeader2" class="box-header-2">
-            <label id="idLupa2" class="icono-lupa-2"><img class="img-lupa" src="img/lupa.jpg" alt="Lupa"></label>
-            <div class="x-exit"><i class="fa-solid fa-xmark"></i></div>
-        </div>
-    </header>
+    <div class="container" id="container">
+        <div class="hamburguesa"><i class="fa-solid fa-bars"></i></div>
+    <div class="contain-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Logo_Homecenter_Sodimac.png" data-testid="sodimac" alt="Homecenter.co" class="logo">
+    </div>
+    <div class="logo2">
+        <img src="https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt92ad3c89ae70b4d0/5f31a4ce1fe0e07eae813320/Logo_header_mobile.jpg?" data-testid="sodimac-mobile" alt="Homecenter.co" style="height: 25px;">
+    </div>
+    <div class="main-searcher" id="mainSearcher">
+        <input type="text"class="container-searcher" id="containerSeacher" placeholder="¿Que estas buscando?" >
+        <button class="searcher" id="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="main-searcher-query main-searcher-query-hidden" id="containerQuery">
+        <i class="fa-solid fa-magnifying-glass searcher-query"></i>
+        <input type="text"class="container-searcher-query" placeholder="¿Que estas buscando?">
+        <i class="fa-solid fa-xmark" id="buttonX"></i>
+
+    </div>
+    <div class="ubicacion"><i class="fa-solid fa-location-dot"></i><p class="pUbicacion"><br></p></div>
+    <div class="carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+    <div class="cmr">
+        <img class="cmr-img" style="height:39px;width:39px" src="https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltc47c3b63cd5f1ca2/5fab05b66f82405d9a4ab0e2/logo-cmr-puntos.svg" alt="cmr puntos image">
+        <p class="cmr-parrafo">Programa <br>CMR PUNTOS</p>
+    </div>
+    <div class="usuario"><i class="fa-solid fa-user-large"></i><p class="parrafo-usuario">Mi cuenta</p></div>
+    </div>
     <script src="js/home.js"></script>
 </body>
 </html>

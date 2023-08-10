@@ -1,10 +1,14 @@
-let idLupa = document.getElementById("idLupa");
-let boxHeader1 = document.getElementById("boxHeader1");
-let boxHeader2 = document.getElementById("boxHeader2");
+let button = document.getElementById("button");
+let buttonX = document.getElementById("buttonX");
+let containerSeacher = document.getElementById("containerSeacher");
+let containerQuery = document.getElementById("containerQuery");
+let container = document.getElementById("container");
+let mainSearcher = document.getElementById("mainSearcher");
 
-idLupa.addEventListener("click",function(){
-    boxHeader1.classList.add("box-header1-hidden");
-    boxHeader1.classList.remove("box-header-1");
-    boxHeader2.classList.remove("box-header2-hidden");
-    boxHeader2.classList.add("box-header-2")
+
+button.addEventListener("click",function(){
+    containerQuery.classList.remove("main-searcher-query-hidden");
 });
+buttonX.addEventListener("click",function(){
+    containerQuery.classList.add("main-searcher-query-hidden");
+})
