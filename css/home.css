@@ -189,3 +189,298 @@
         font-size: 20px;
     }
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: lato, sans-serif;
+}
+img {
+    width: 100%;
+}
+.box-header-1 {
+    width: 100%;
+    /* background-color: red; */
+    height: 70px;
+    display: grid;
+    align-items: center;
+    grid-template: "menu-hamburguer img-logo icono-lupa circle  carrito-compras icono-user" 70px/
+                    30px            80px    1fr      50px       50px            50px;
+}
+.box-header1-hidden {
+    display: none;
+}
+.style-hamburguer {
+    color: green;
+    font-size: 1em;
+}
+.menu-hamburguer{
+    grid-area: menu-hamburguer;
+    position: relative;
+    left: 20px;
+    /* top: 20px; */
+    
+    
+}
+.img-logo{
+    grid-area: img-logo;
+    width: 100%;
+    
+}
+.icono-lupa{
+    grid-area: icono-lupa;
+    width: 100%;
+    text-align: right;
+}
+.circle{
+    grid-area: circle;
+    width: 60px;
+}
+.carrito-compras {
+    grid-area: carrito-compras;
+    width: 60px;
+}
+.icono-user{
+    grid-area: icono-user;
+    width: 20px;
+    
+}
+.icono-homecenter{
+    width: 25px;
+    position: relative;
+    /* top: 10px; */
+    left: 20px;
+}
+.img-lupa{
+    width: 30px;
+}
+.box-header-2 {
+    width: 100%;
+    height: 100px;
+    background-color: darkcyan;
+}
+.box-header-2-hidden {
+    display: none;
+}
+
+.x-exit {
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5em;
+}
+.img-carrito{
+    /* top: 12px; */
+    width: 20px;
+}
+.form-ana {
+    position: fixed;
+    right: 20px;
+    height: 100vh;
+    top: 0;
+    width: 406px;
+    display: grid;
+    grid-template: "frm-header" 70px
+                   "frm-body"  minmax(150px, 90vh)
+                   "frm-input" 60px
+                   "frm-exit" 80px/
+                    406px;     
+}
+.form-header {
+    grid-area: frm-header;
+    background-color: rgb(0,93,173);
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.img-ana-I {
+    width: 60px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.title-form {
+    font-family: poppins;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 30px;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.form-body {
+    grid-area: frm-body;
+    background-color: rgb(234,238,243);
+    display: grid;
+    grid-template: "empty-left form-text empty-right"
+                   "empty-left slider    empty-right" /
+                    50px        1fr       40px;
+}
+.img-ana-II {
+    width: 100px;
+}
+.form-text {
+    grid-area: form-text;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+.text-opciones {
+    background-color: white;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 0.08em;
+}
+.finger-style {
+    color: rgb(246, 191, 11);
+}
+.text-form-black {
+    font-weight: 900;
+    display: block;
+    margin-top: 30px;
+    letter-spacing: 0.08em;
+}
+.reloj-msj {
+    font-size: .7em;
+    position: relative;
+    bottom: 0;
+    left: 200px;
+}
+.slider {
+    grid-area: slider;
+    font-size: .9em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.box-slider {
+    background-color: white;
+    width: 250px;
+    height: 120px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.slider-title {
+    font-weight: 900;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+    color: rgb(0,93,173);
+    letter-spacing: 0.05em;
+    word-spacing: 0.2em;
+}
+.slider-text {
+    font-size: .9em;
+    color: rgb(96,96,96);
+    text-align: center;
+    border-bottom: 1px solid rgb(220,220,220,.6);
+    display: block;
+    padding-bottom: 15px;
+}
+.click-slider {
+    text-align: center;
+    color:  rgb(0,93,173);
+    font-weight: 400;
+    margin-top: 10px;
+}
+.form-input {
+    grid-area: frm-input;
+    background-color: rgb(234,238,243);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid rgb(0,114,206);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.input-text {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: rgb(64,64,64);
+    font-family: poppins, sans-serif;
+    outline: none;
+}
+.icon-smile {
+    margin-right: 30px;
+    font-size: 1.3em;
+}
+.exit-style {
+    background-color: rgb(0,114,206);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 1.7em;
+    font-family: lato;
+    font-weight: 300;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-exit {
+    grid-area: frm-exit;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* Fonts... */
+/* lato-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/lato-v24-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/lato-v24-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
