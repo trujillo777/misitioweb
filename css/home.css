@@ -275,6 +275,23 @@ img {
     /* top: 12px; */
     width: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .form-ana {
     position: fixed;
     right: 20px;
@@ -315,9 +332,9 @@ img {
     grid-area: frm-body;
     background-color: rgb(234,238,243);
     display: grid;
-    grid-template: "empty-left form-text empty-right"
-                   "empty-left slider    empty-right" /
-                    50px        1fr       40px;
+    grid-template: "empty-left      form-text       empty-right"
+                   "icons-slider    icons-slider    icons-slider" 125px /
+                    50px            1fr              40px;
 }
 .img-ana-II {
     width: 100px;
@@ -343,28 +360,115 @@ img {
     margin-top: 30px;
     letter-spacing: 0.08em;
 }
+/* .box-right-arrow {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+} */
+.img-right-arrow {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
 .reloj-msj {
     font-size: .7em;
     position: relative;
     bottom: 0;
     left: 200px;
 }
+.icons-slider {
+    grid-area: icons-slider;
+    display: grid;
+    grid-template: "box-icon-arrow-left box-main-slider box-icon-arrow-right" /
+                    50px                310px            50px;
+}
+.box-main-slider {
+    grid-area: box-main-slider;
+    width: 310px;
+    background-color: blue;
+    overflow: hidden;
+    display: grid;
+    grid-area: "icon-arrow-left slider";
+}
+.box-icon-arrow-left {
+    grid-area: box-icon-arrow-left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-icon-arrow-right {
+    grid-area: box-icon-arrow-right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-arrow-left {
+    grid-area: icon-arrow-left;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.icon-arrow-right {
+    grid-area: icon-arrow-right;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.fa-chevron-left {
+    font-size: 1.6em;
+    color: rgb(0,93,173);
+}
 .slider {
+/*     background-color: red;  */
     grid-area: slider;
     font-size: .9em;
+    height: 123px;
+    width: 300px; 
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    margin-left: 50px;
+    flex-flow: column wrap;
+    /* flex-wrap: wrap; */
+    position: relative;
+    right: 850px;
 }
 .box-slider {
     background-color: white;
-    width: 250px;
+    width: 320px;
     height: 120px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 20px;
+}
+.slider1 {
+    position: relative;
+   /*  right: 300px; */
+}
+.slider2 {
+    position: relative;
+    background-color: yellow;
+}
+.slider3 {
+    background-color: aqua;
+}
+.slider4 {
+    background-color: violet;
 }
 .slider-title {
     font-weight: 900;
