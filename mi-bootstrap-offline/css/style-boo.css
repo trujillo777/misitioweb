@@ -1,0 +1,17 @@
+.box-top{
+    width: 100%;
+    height: 300px;
+}
+
+.mi-form{
+    margin-bottom: 40px;
+}
+.icon-style-alert{
+    height: 30px;
+    width: 30px;
+}
+.icono-hamburguesa{
+    font-size: 2.5em;
+    color: black;
+    cursor: pointer;
+}
