@@ -15,3 +15,30 @@
     color: black;
     cursor: pointer;
 }
+.menu-fixed{
+    position: fixed;
+
+}
+.menu-hidden{
+    position: static;
+    visibility: hidden;
+}
+.box-position-spinner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.position-spinner{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.position-colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3em;
+}
