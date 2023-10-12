@@ -1,45 +1,71 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: poppins, sans-serif;
-}
-header{
-    width: 100%;
-    display: grid;
-    grid-template:"logo box-input-busqueda carrito" 65px /
-                   50px 1fr                50px;
-                     background-color: rgb(255, 245, 8);
-}
-.icon-header{
-    font-size: 1.4em;
-    color: rgb(24, 24, 24);
-}
-.logo, .carrito{
-    grid-area: logo;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.box-input-busqueda{
-    grid-area:box-input-busqueda ;
-    width: 100%;
-    padding: 15px;
-}
-.input-busqueda{
-    width: 100%;
-    border-radius: 5px;
-border: none;
-height: 40px;
-outline: none;
-padding-left: 30px;
-font-size: 1.4em;
-color: rgb(48, 48, 48);
-}
-.carrito{
-    grid-area: carrito;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.main-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    background-color: RGB(255,241,89);
+    height: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template:"logo seeker hamburger cart"50px/
+                    85px 1fr 42px 42px;
+}
+
+img{
+    width: 60%;
+}
+.imagen{
+    width: 100px;
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen:hover{
+    cursor: pointer;
+}
+.seeker{
+    grid-area: seeker;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template:"magni main-seeker"50px/
+                    40px   1fr;
+}
+
+.magini{
+    grid-area: magni;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+}
+.main-seeker{
+    grid-area:main-seeker;
+    width: 100%; 
+    height: 40px;
+}
+
+.input-seeker{
+    width: 90%;
+    height: 40px;
+    border: none;
+}
 .box-auto{
     margin-top: 20px;
     display: grid;
@@ -53,6 +79,7 @@ color: rgb(48, 48, 48);
 .box-info{
     grid-area: box-info;
     margin-left: 15px;
+    
 }
 
 .img-auto {
@@ -110,4 +137,10 @@ visibility: visible;
     height: 1px;
     background-color: rgb(200, 200, 200, .6);
 }
+.cart:hover{
+    cursor: pointer;
+}
 
+.hamburger:hover {
+    cursor: pointer;
+}
