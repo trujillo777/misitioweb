@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--ff-sans-cond);
+    letter-spacing: 0.15rem;
+    color: var(--clr-white);
+    background-color: var(--clr-dark);
+    background-image: url(./img/ini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
