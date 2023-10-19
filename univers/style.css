@@ -12,3 +12,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.header{
+    display: flex;
+    gap: 2;
+    justify-content: center;
+    align-items: center;
+}
+.btn-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+.uppercase {
+    text-transform: uppercase;
+}   
