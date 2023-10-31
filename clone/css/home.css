@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.box-main {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    gap: 35px;
+    grid-template-rows: 80px;
+    background-image: url('../img/mentor/home/background-home-desktop.jpg');
+    background-size: cover;
+}
+
+.line {
+    background-color: rgba(255, 255, 255, 0.333);
+    height: 0.1vw;
+    margin-right: -40px;
+    z-index: 1;
+
+}
+
+.header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 35vw 1fr;
+    position: relative;
+    top: 35px;
+}
+
+.log {
+    text-align: center;
+}
+
+.container-info {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20%;
+    background-color: rgba(255, 255, 255, 0.139);
+    backdrop-filter: blur(15px);
+    height: 100%;
+    gap: 35px;
+}
+
+.item {
+    text-decoration: unset;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: gainsboro;
+}
+
+.container-info a:hover {
+    margin-top: 3px;
+    border-bottom: 3px solid white;
+}
+
+.content {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-uno {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: min-content;
+    text-align: justify;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.texto-main {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo {
+    letter-spacing: 16px;
+    font-size:7em;
+}
+
+.texto {
+    word-spacing: 10px;
+    ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-mas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-btn {
+    cursor: pointer;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.7em;
+    letter-spacing: 3.5px;
+    /* font-weight: lighter; */
+}
+
+@media only screen and (max-width: 660px) {
+    .box-main{
+        background-image: url('../img/mentor/home/background-home-mobile.jpg');
+    }
+    .line{
+        display: none;
+    }
+    .container-info{
+        position: absolute;
+        right: 0;
+        font-size: 0.6em;
+        width: 80%;
+        height: 70%;
+    }
+    .log{
+        z-index: 1;
+    }
+    .header{
+        top: 0;
+        padding: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .box-btn{
+        margin-top: 15px;
+        font-size: 1em;
+        width: 150px;
+        height: 150px;
+    }
+    .texto-main{
+        text-align: center;
+    }
+    .titulo{
+        font-size: 20vw;
+    }
+}
