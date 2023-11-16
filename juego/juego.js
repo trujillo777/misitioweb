@@ -20,6 +20,8 @@ function Loop() {
     requestAnimationFrame(Loop);
 }
 
+//****** GAME LOGIC ********//
+
 var sueloY = 22;
 var velY = 0;
 var impulso = 900;
@@ -213,8 +215,8 @@ function GameOver() {
 function DetectarColision() {
     for (var i = 0; i < obstaculos.length; i++) {
         if(obstaculos[i].posX > dinoPosX + dino.clientWidth) {
-            
-            break; 
+            //EVADE
+            break; //al estar en orden, no puede chocar con más
         }else{
             if(IsCollision(dino, obstaculos[i], 10, 30, 15, 20)) {
                 GameOver();

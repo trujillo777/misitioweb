@@ -17,7 +17,7 @@ body{
     
     position: relative;
 
-    background: linear-gradient(#b7d6c7, transparent) #ffe2d1;/*linear-gradient(#90ebff, white);*/
+    background: linear-gradient(#b7d6c7, transparent) #ffe2d1;
     transition: background-color 1s linear;
     overflow: hidden;
 }
